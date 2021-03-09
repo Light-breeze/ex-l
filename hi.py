@@ -2,8 +2,10 @@
 #Привет2
 #Привет3
 import os, sys
-print(os.system('ls'))
-sys.stdin.readline()
-sys.stdout.write() 
-sys.stdin.readline()
-sys.stdout.write()   
+print ('********')
+print(os.system('pwd'))
+st = sys.stdin.readline()
+sys.stdout.write(st) 
+st = sys.stdin.readline()
+sys.stdout.write(st)   
+
